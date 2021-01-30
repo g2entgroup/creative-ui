@@ -8,7 +8,27 @@ import Spark7 from '../common/apexChart/spark7';
 const Dashboard = () => {
     return (
         <>
-            <div className="row clearfix">
+            
+
+            <div className="container-fluid">
+                <div className="block-header">
+                    <div className="row clearfix">
+                        <div className="col-md-6 col-sm-12">
+                            <h1>Cryptocurrency</h1>
+                            <nav aria-label="breadcrumb">
+                                <ol className="breadcrumb">
+                                    <li className="breadcrumb-item"><Link to="/">Creative Platform</Link></li>
+                                    <li className="breadcrumb-item active" aria-current="page">Cryptocurrency</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div className="col-md-6 col-sm-12 text-right hidden-xs">
+                            <a href="/" className="btn btn-sm btn-primary" title="">Create Campaign</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className="row clearfix">
                     <div className="col-12">
                         <form className="card" action="" method="post">
                             <div className="body">
@@ -54,25 +74,6 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-            <div className="container-fluid">
-                <div className="block-header">
-                    <div className="row clearfix">
-                        <div className="col-md-6 col-sm-12">
-                            <h1>Cryptocurrency</h1>
-                            <nav aria-label="breadcrumb">
-                                <ol className="breadcrumb">
-                                    <li className="breadcrumb-item"><Link to="/">Creative Platform</Link></li>
-                                    <li className="breadcrumb-item active" aria-current="page">Cryptocurrency</li>
-                                </ol>
-                            </nav>
-                        </div>
-                        <div className="col-md-6 col-sm-12 text-right hidden-xs">
-                            <a href="/" className="btn btn-sm btn-primary" title="">Create Campaign</a>
-                            
-                        </div>
-                    </div>
-                </div>
-
                 <div className="row clearfix">
                     <div className="col-sm-6 col-lg-3">
                         <div className="card">
@@ -80,10 +81,10 @@ const Dashboard = () => {
                                 <div className="row clearfix">
                                     <div className="col-auto">
                                         <div className="stamp">
-                                            <img src="https://images.unsplash.com/photo-1559622023-04ca3ae5431d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2600&q=80" className="w40" alt="Ja Music" />
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6bpiEYhpoUIPt19FzFDQzloHaTDnGt_FAbQ&usqp=CAU" className="w40" alt="Ja Music" />
                                             <h4>Ja Music</h4>
                                         </div>
-                                        <div className="text-muted">Coverage Commercial (Audio)</div>
+                                        <div className="text-muted">Staff</div>
                                         <div className="h4 m-0">0.098140</div> 
                                     </div>
                                 </div>
@@ -116,10 +117,10 @@ const Dashboard = () => {
                                 <div className="row clearfix">
                                     <div className="col-auto">
                                         <div className="stamp">
-                                            <img src="https://rooftopantics.com/wp-content/uploads/2019/04/popular_female_singers_2019_billie_eilish-1600x1067.jpg" className="w40" alt="Brightsta" />
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_VauTBSsQZe8YPosQdlaZfilAbrFTw_Ragw&usqp=CAU" className="w40" alt="Brightsta" />
                                             <h4>Brightsta</h4>
                                         </div>
-                                        <div className="text-muted">Drama TV Show (Pilot)</div>
+                                        <div className="text-muted">Instruments</div>
                                         <div className="h4 m-0">0.198052</div>
                                     </div>
                                 </div>
@@ -152,10 +153,10 @@ const Dashboard = () => {
                                 <div className="row clearfix">
                                     <div className="col-auto">
                                         <div className="stamp">
-                                            <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/67613363_2055827604522234_6058753301808152576_o.jpg?_nc_cat=104&ccb=2&_nc_sid=0debeb&_nc_ohc=PFO03XyYYPAAX_rlx_S&_nc_ht=scontent-lga3-2.xx&oh=0df3193f7ff4dfd451db90bbbcd83404&oe=603978B6" className="w40" alt="Glen" />
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgncuGhB0c0pqeMT2JV_3kwTX0544u7tF-Q&usqp=CAU" className="w40" alt="Glen" />
                                             <h4>Glen</h4>
                                         </div>
-                                        <div className="text-muted">Model Y Commercial (Audio)</div>
+                                        <div className="text-muted"> Video/Photography </div>
                                         <div className="h4 m-0">0.017062</div>
                                     </div>
                                 </div>
@@ -188,10 +189,10 @@ const Dashboard = () => {
                                 <div className="row clearfix">
                                     <div className="col-auto">
                                         <div className="stamp">
-                                            <img src="https://makingmusicmag.com/wp-content/uploads/2019/10/Guitar-solo-pic-WEB.jpg" className="w40" alt="Netti" />
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVNuAowcfpyEk3rBZO-U5fHvF3mMWKxIcsw&usqp=CAU" className="w40" alt="Netti" />
                                             <h4>Netti</h4>
                                         </div>
-                                        <div className="text-muted">Movie Campaign (Trailer)</div>
+                                        <div className="text-muted"> Touring </div>
                                         <div className="h4 m-0">0.017062</div>
                                     </div>
                                 </div>
@@ -321,7 +322,7 @@ const Dashboard = () => {
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
                                                 <tr>
-                                                    <td className="w60"><img src="https://i1.wp.com/loveandtechop.com/wp-content/uploads/2020/04/unnamed.png?fit=512%2C257" alt="Dame Dash Studios" className="w30 rounded" /></td>
+                                                    <td className="w60"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDr_RlXNO6WF7uEL6pkBfjIGgCqAhyLqGFCA&usqp=CAU" alt="Dame Dash Studios" className="w30 rounded" /></td>
                                                     <td><p className="mb-0">Dame Dash Studios</p></td>
                                                     <td><span>12:20PM 5 Nov 2021</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>

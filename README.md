@@ -5,13 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## First steps
 
+In the project directory, you can run:
+
 ### `yarn install`
 
 When making updates to CSS you'll need to run the Grunt task compiler:
 
 ### `grunt watch`
-
-In the project directory, you can run:
 
 ### `yarn start`
 

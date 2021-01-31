@@ -1,8 +1,17 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+# First steps
+
+### `yarn install`
+
+When making updates to CSS you'll need to run the Grunt task compiler:
+
+### `grunt watch`
 
 In the project directory, you can run:
 

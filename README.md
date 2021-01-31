@@ -9,9 +9,11 @@ In the project directory, you can run:
 
 ### `yarn install`
 
-When making updates to CSS you'll need to run the Grunt task compiler:
+Installs any dependecies needed in order to run application.
 
 ### `grunt watch`
+
+Watches for any SASS/CSS changes.
 
 ### `yarn start`
 

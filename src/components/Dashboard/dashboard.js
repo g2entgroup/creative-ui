@@ -352,7 +352,7 @@ const Dashboard = () => {
                                                     <td><button type="button" className="btn btn-default btn-sm mb-0"><span>View</span></button></td>
                                                 </tr>
                                                 <tr>
-                                                    <td className="w60"><img src="/images/twitter.jpg" alt="Twittter" className="w30 rounded" /></td>
+                                                    <td className="w60"><img src="~/Desktop/creative-ui/images/twitter.jpg" alt="Twittter" className="w30 rounded" /></td>
                                                     <td><p className="mb-0">Twitter</p></td>
                                                     <td><span>12:20PM 19 Jan 2021</span></td>
                                                     <td><span>OX874JKHJKFG76767DFD67</span></td>
